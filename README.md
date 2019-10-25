@@ -7,7 +7,9 @@ Install the following Artix Linux packages:
 * docker
 ## Usage
 Run `make docker-image` to build the base image.
+
 Run `make docker-image-openrc` to build the openrc image.
+
 Run `make docker-image-runit` to build the runit image.
 ## Purpose
 * Provide Artix Linux in a Docker Image
