@@ -1,0 +1,6 @@
+*~
+*.orig
+/.idea
+/artixlinux.tar
+/alpm-hooks/
+/build/
