@@ -1,17 +1,3 @@
-pipeline {
-  agent any
-  stages {
-    stage('Build') {
-      steps {
-        sh 'echo "build"'
-      }
-    }
+@Library('docker-ci') import org.artixlinux.DockerImage
 
-    stage('Deploy') {
-      steps {
-        sh 'echo "deploy"'
-      }
-    }
-
-  }
-}
+ImagePipeline(new DockerImage(this))
