@@ -1,4 +1,4 @@
-package:
+packages:
     - gawk
     - sed
     - grep
@@ -6,4 +6,3 @@ package:
     - pacman
     - opensysusers
     - util-linux
-    - artools-docker
